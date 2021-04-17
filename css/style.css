@@ -1993,6 +1993,11 @@ body.fixed {
   background-image: url("../img/reg-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.reg-wrapper .footer {
+  background-color: transparent;
 }
 
 .reg {
