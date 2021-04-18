@@ -3104,6 +3104,14 @@ $(document).ready(function() {
       $('.header__burger, .header__right').toggleClass('active');
       $('body').toggleClass('fixed');
     });
+
+    $('.left-socials__language').click(function() {
+      $('.left-socials__menu').toggleClass('active');
+    });
+
+    $('.header__language').click(function() {
+      $('.header__language-menu').toggleClass('active');
+    });
     
 });
 
